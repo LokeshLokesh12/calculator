@@ -43,20 +43,41 @@ button{
 button:active{
     background-color: var(--light-black)    ;
 }
-.buttons-num{
-    /* display: grid; */
-}
+
 .equal{
     width: 33%;
     border-radius: 15px;
 }
-.main-body-cal .container {
-    display: flex;
+
+
+.main-fram{
+   
+    width: auto;
+    
+}
+.main-fram .container{
+    display: flex;  
+  
     height: 100vh;
-    align-items: center;
+    
+}   
+.cal{
+    align-self: center;
+ 
+    height: 100vh;
+
+
+    padding: 13% 10%;
+    margin: auto;
+}
+.display,
+.first-line,
+.second-line,
+.third-line,
+.fourth-line,
+.fivith-line{
+    margin: auto;
+    display: flex;
     justify-content: center;
 }
-.calculator-main{
-    
-    margin: 0 5%;
-}
+
